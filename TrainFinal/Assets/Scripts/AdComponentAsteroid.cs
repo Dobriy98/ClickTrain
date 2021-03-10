@@ -18,6 +18,6 @@ public class AdComponentAsteroid : AdManager
         this.panelName.text = this.headerText;
         this.panelText.text = this.bodyText;
         ShowPanel();
-        Destroy(this.gameObject);
+        this.gameObject.SetActive(false);
     }
 }

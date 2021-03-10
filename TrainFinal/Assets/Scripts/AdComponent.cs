@@ -30,16 +30,4 @@ public class AdComponent : AdManager
 
         HidePanel();
     }
-
-    public void CollectButtonX2()
-    {
-        int maxcoat = GMScript.ShowValues("maxCoat");
-        GMScript.ChangeValues("coatMinus", maxcoat);
-
-        int plusGold = GMScript.ShowValues("plusGold");
-        int X2 = plusGold * 2;
-        GMScript.ChangeValues("gold", X2);
-
-        HidePanel();
-    }
 }
